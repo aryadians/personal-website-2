@@ -6,14 +6,14 @@ import github from "/icons/social-media/github.webp";
 import email from "/icons/social-media/email.webp";
 
 // Import assets projects and skills
-import badonorDarah from "/images/badonordarah.png";
-import hrev from "/images/hrev.png";
+import kopikuy from "/images/kopikuy.png";
+import KYCbangbeli from "/images/KYC.jpg";
 import impactPalu from "/images/impact-palu.png";
 import snResidence from "/images/sn-residence.png";
 
-import logoBadonorDarah from "/icons/logo-badonordarah.png";
-import logoHrev from "/icons/logo-hrev.png";
-import logoimpactPalu from "/icons/logo-impact-palu.png";
+import logoprakerja from "/icons/prakerja-logo.png";
+import logoKYC from "/icons/logobangbeli.png";
+import logoprofile from "/icons/logo-impact-palu.png";
 import logoSnResidence from "/icons/logo-sn-residence.png";
 
 import nextjs from "/icons/tech-stack/nextjs.svg";
@@ -31,6 +31,9 @@ import postgresql from "/icons/tech-stack/postgresql.svg";
 import firebase from "/icons/tech-stack/firebase.svg";
 import vite from "/icons/tech-stack/vite.svg";
 import express from "/icons/tech-stack/express.svg";
+import css from "/icons/tech-stack/css.svg";
+import html from "/icons/tech-stack/html.svg";
+import bootstrap5 from "/icons/tech-stack/bootstrap5.svg";
 
 // import assets experience
 import prakerja from "/icons/company-logo/prakerja.svg";
@@ -96,36 +99,36 @@ export const dataLogoSocialMedia: LogoSocialMedia[] = [
 export const dataProjectss: Projects[] = [
   {
     id: 0,
-    img_url: badonorDarah,
-    logo: logoBadonorDarah,
-    type: "Medical Apps •",
-    tech_stack_logo: [react, vite, tailwind, express],
+    img_url: kopikuy,
+    logo: logoprakerja,
+    type: "Company Profile •",
+    tech_stack_logo: [html, bootstrap5, css],
     navigate_url: "/",
   },
   {
     id: 1,
-    img_url: hrev,
-    logo: logoHrev,
-    type: "Landing Page •",
-    tech_stack_logo: [react, typescript, vite, tailwind],
-    navigate_url: "https://halohrev.com",
+    img_url: KYCbangbeli,
+    logo: logoKYC,
+    type: "Verified Page •",
+    tech_stack_logo: [react, typescript, tailwind],
+    navigate_url: "/",
   },
-  {
-    id: 2,
-    img_url: impactPalu,
-    logo: logoimpactPalu,
-    type: "Company Profile •",
-    tech_stack_logo: [react, nextjsDark, tailwind],
-    navigate_url: "https://impactpalu-fe.vercel.app",
-  },
-  {
-    id: 3,
-    img_url: snResidence,
-    logo: logoSnResidence,
-    type: "Company Profile •",
-    tech_stack_logo: [react, tailwind],
-    navigate_url: "https://sn-residence-dev.vercel.app",
-  },
+  // {
+  //   id: 2,
+  //   img_url: impactPalu,
+  //   logo: logoimpactPalu,
+  //   type: "Company Profile •",
+  //   tech_stack_logo: [react, nextjsDark, tailwind],
+  //   navigate_url: "https://impactpalu-fe.vercel.app",
+  // },
+  // {
+  //   id: 3,
+  //   img_url: snResidence,
+  //   logo: logoSnResidence,
+  //   type: "Company Profile •",
+  //   tech_stack_logo: [react, tailwind],
+  //   navigate_url: "https://sn-residence-dev.vercel.app",
+  // },
 ];
 
 export const dataSkills: string[] = [
@@ -138,9 +141,9 @@ export const dataSkills: string[] = [
   nodejs,
   tailwind,
   antdesign,
-  mongodb,
-  postgresql,
-  firebase,
+  bootstrap5,
+  css,
+  html,
 ];
 
 export const dataExperience: Experience[] = [
